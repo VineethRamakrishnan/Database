@@ -7,7 +7,8 @@
 
 ## Installing SQL Server Management Studio (GUI)
 
-    1.  Download [SSMS](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN&view=sql-server-ver15)
+    1.  Download [SSMS](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN&view=sql-server-ver15).
+
    
 
 ## Joins
