@@ -1,6 +1,24 @@
 ## Create Table 
 
-  Table Name - employee 
-  Attributes - empNo, empName, empAddress, empManager, project
-  
-  
+  Table Name - employees
+  Attributes - empNo, empName, empAddress, empManager
+ 
+ 
+use master;
+
+--DDL Statements
+create table employees (empNo int, empName varchar(255), empManager varchar(255));
+
+alter table employees add empAddress varchar(255);
+
+
+--DML Statements
+select * from employees;
+
+insert into employees (empNo,empName,empManager) values (1001,'Vineeth','Ramya');
+insert into employees (empNo,empName,empManager) values (1002,'Sudhi','Ramya');
+insert into employees (empNo,empName,empManager) values (1003,'Ramya','Senthil');
+insert into employees (empNo,empName,empManager) values (1004,'Yograj','Thiyagu');
+insert into employees (empNo,empName,empManager) values (1005,'Thiyagu','Senthil');
+
+update employees set empAddress='Chennai' where empNo=1001;
