@@ -1,0 +1,6 @@
+## Create Table 
+
+  Table Name - employee 
+  Attributes - empNo, empName, empAddress, empManager, project
+  
+  
